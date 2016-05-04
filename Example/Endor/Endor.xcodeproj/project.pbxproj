@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1196E682005438C0DB6DD8D9 /* Pods_EndorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FF5AA50D3D9B1A2DC0CFB1 /* Pods_EndorTests.framework */; };
+		61A48C3934968AF256D8775A /* Pods_Endor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0F13EE9219D177322FF006 /* Pods_Endor.framework */; };
+		BD0B23CC1CDD23C6002FA6DE /* EndorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B23CB1CDD23C6002FA6DE /* EndorTests.swift */; };
+		BD2853811CDD34AA00C8E09B /* DeathStarAssault.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2853801CDD34AA00C8E09B /* DeathStarAssault.swift */; };
+		BDDD57031CDD16BE0093631A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD57021CDD16BE0093631A /* AppDelegate.swift */; };
+		BDDD57051CDD16BE0093631A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD57041CDD16BE0093631A /* ViewController.swift */; };
+		BDDD57081CDD16BE0093631A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDD57061CDD16BE0093631A /* Main.storyboard */; };
+		BDDD570A1CDD16BE0093631A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDD57091CDD16BE0093631A /* Assets.xcassets */; };
+		BDDD570D1CDD16BE0093631A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDD570B1CDD16BE0093631A /* LaunchScreen.storyboard */; };
+		BDF953D61D05E04200517946 /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF953D51D05E04200517946 /* Assertions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD0B23CE1CDD23C6002FA6DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDD56F71CDD16BE0093631A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDD56FE1CDD16BE0093631A;
+			remoteInfo = Endor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BD0086876B10CDD0FC134B8 /* Pods-Endor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endor/Pods-Endor.debug.xcconfig"; sourceTree = "<group>"; };
+		13CBA6976C18A74C2E289B28 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FF5AA50D3D9B1A2DC0CFB1 /* Pods_EndorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EndorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		424A3929EAC4E4BDAFD5AC76 /* Pods-EndorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EndorTests/Pods-EndorTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A0F13EE9219D177322FF006 /* Pods_Endor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Endor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9DDCDCB344BD0EB341E14F /* Pods-Endor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Endor/Pods-Endor.release.xcconfig"; sourceTree = "<group>"; };
+		BD0B23C91CDD23C6002FA6DE /* EndorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0B23CB1CDD23C6002FA6DE /* EndorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndorTests.swift; sourceTree = "<group>"; };
+		BD0B23CD1CDD23C6002FA6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2853801CDD34AA00C8E09B /* DeathStarAssault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeathStarAssault.swift; sourceTree = "<group>"; };
+		BDDD56FF1CDD16BE0093631A /* Endor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Endor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDD57021CDD16BE0093631A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDDD57041CDD16BE0093631A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDDD57071CDD16BE0093631A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDDD57091CDD16BE0093631A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDDD570C1CDD16BE0093631A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDDD570E1CDD16BE0093631A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF953D51D05E04200517946 /* Assertions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assertions.swift; path = ../../../Ackbar/Assertions/Assertions.swift; sourceTree = "<group>"; };
+		C57A1034389C7A249F036D79 /* Pods-EndorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EndorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EndorTests/Pods-EndorTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD0B23C61CDD23C6002FA6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1196E682005438C0DB6DD8D9 /* Pods_EndorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDD56FC1CDD16BE0093631A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A48C3934968AF256D8775A /* Pods_Endor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55CCE97F92085E36FDA1F0AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BD0086876B10CDD0FC134B8 /* Pods-Endor.debug.xcconfig */,
+				5F9DDCDCB344BD0EB341E14F /* Pods-Endor.release.xcconfig */,
+				C57A1034389C7A249F036D79 /* Pods-EndorTests.debug.xcconfig */,
+				424A3929EAC4E4BDAFD5AC76 /* Pods-EndorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD0B23CA1CDD23C6002FA6DE /* EndorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD0B23CB1CDD23C6002FA6DE /* EndorTests.swift */,
+				BD0B23CD1CDD23C6002FA6DE /* Info.plist */,
+			);
+			path = EndorTests;
+			sourceTree = "<group>";
+		};
+		BD0B23D51CDD2A15002FA6DE /* Manually Integrated Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF953D51D05E04200517946 /* Assertions.swift */,
+			);
+			name = "Manually Integrated Files";
+			sourceTree = "<group>";
+		};
+		BDDD56F61CDD16BE0093631A = {
+			isa = PBXGroup;
+			children = (
+				BDDD57011CDD16BE0093631A /* Endor */,
+				BD0B23CA1CDD23C6002FA6DE /* EndorTests */,
+				BDDD57001CDD16BE0093631A /* Products */,
+				DC7CBC42CC8D593E926FC6DE /* Frameworks */,
+				55CCE97F92085E36FDA1F0AE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BDDD57001CDD16BE0093631A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDDD56FF1CDD16BE0093631A /* Endor.app */,
+				BD0B23C91CDD23C6002FA6DE /* EndorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDD57011CDD16BE0093631A /* Endor */ = {
+			isa = PBXGroup;
+			children = (
+				BD0B23D51CDD2A15002FA6DE /* Manually Integrated Files */,
+				BDDD57021CDD16BE0093631A /* AppDelegate.swift */,
+				BDDD57041CDD16BE0093631A /* ViewController.swift */,
+				BDDD57061CDD16BE0093631A /* Main.storyboard */,
+				BDDD57091CDD16BE0093631A /* Assets.xcassets */,
+				BDDD570B1CDD16BE0093631A /* LaunchScreen.storyboard */,
+				BDDD570E1CDD16BE0093631A /* Info.plist */,
+				BD2853801CDD34AA00C8E09B /* DeathStarAssault.swift */,
+			);
+			path = Endor;
+			sourceTree = "<group>";
+		};
+		DC7CBC42CC8D593E926FC6DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13CBA6976C18A74C2E289B28 /* Pods.framework */,
+				4A0F13EE9219D177322FF006 /* Pods_Endor.framework */,
+				18FF5AA50D3D9B1A2DC0CFB1 /* Pods_EndorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD0B23C81CDD23C6002FA6DE /* EndorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0B23D21CDD23C6002FA6DE /* Build configuration list for PBXNativeTarget "EndorTests" */;
+			buildPhases = (
+				626FE0D99F02008DD42F5820 /* 📦 Check Pods Manifest.lock */,
+				BD0B23C51CDD23C6002FA6DE /* Sources */,
+				BD0B23C61CDD23C6002FA6DE /* Frameworks */,
+				BD0B23C71CDD23C6002FA6DE /* Resources */,
+				F1161EBF233E646478C2D873 /* 📦 Embed Pods Frameworks */,
+				0C279C19DC81E730D914D2B6 /* 📦 Copy Pods Resources */,
+				60999ECFA6FE24194941AC86 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0B23CF1CDD23C6002FA6DE /* PBXTargetDependency */,
+			);
+			name = EndorTests;
+			productName = EndorTests;
+			productReference = BD0B23C91CDD23C6002FA6DE /* EndorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDDD56FE1CDD16BE0093631A /* Endor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDD57111CDD16BE0093631A /* Build configuration list for PBXNativeTarget "Endor" */;
+			buildPhases = (
+				5E95414AE89C4DE21B80C4ED /* 📦 Check Pods Manifest.lock */,
+				BDDD56FB1CDD16BE0093631A /* Sources */,
+				BDDD56FC1CDD16BE0093631A /* Frameworks */,
+				BDDD56FD1CDD16BE0093631A /* Resources */,
+				9C8AED04093B55D153351990 /* 📦 Embed Pods Frameworks */,
+				491B51C52F270DD32D159FA7 /* 📦 Copy Pods Resources */,
+				A53A91C536F6B5A2B2ECFFAD /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Endor;
+			productName = Endor;
+			productReference = BDDD56FF1CDD16BE0093631A /* Endor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDDD56F71CDD16BE0093631A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Square, Inc.";
+				TargetAttributes = {
+					BD0B23C81CDD23C6002FA6DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BDDD56FE1CDD16BE0093631A;
+					};
+					BDDD56FE1CDD16BE0093631A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BDDD56FA1CDD16BE0093631A /* Build configuration list for PBXProject "Endor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDDD56F61CDD16BE0093631A;
+			productRefGroup = BDDD57001CDD16BE0093631A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDDD56FE1CDD16BE0093631A /* Endor */,
+				BD0B23C81CDD23C6002FA6DE /* EndorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD0B23C71CDD23C6002FA6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDD56FD1CDD16BE0093631A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDD570D1CDD16BE0093631A /* LaunchScreen.storyboard in Resources */,
+				BDDD570A1CDD16BE0093631A /* Assets.xcassets in Resources */,
+				BDDD57081CDD16BE0093631A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C279C19DC81E730D914D2B6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EndorTests/Pods-EndorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		491B51C52F270DD32D159FA7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Endor/Pods-Endor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E95414AE89C4DE21B80C4ED /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60999ECFA6FE24194941AC86 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EndorTests/Pods-EndorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		626FE0D99F02008DD42F5820 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8AED04093B55D153351990 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Endor/Pods-Endor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53A91C536F6B5A2B2ECFFAD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Endor/Pods-Endor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1161EBF233E646478C2D873 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EndorTests/Pods-EndorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD0B23C51CDD23C6002FA6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0B23CC1CDD23C6002FA6DE /* EndorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDD56FB1CDD16BE0093631A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDD57051CDD16BE0093631A /* ViewController.swift in Sources */,
+				BD2853811CDD34AA00C8E09B /* DeathStarAssault.swift in Sources */,
+				BDF953D61D05E04200517946 /* Assertions.swift in Sources */,
+				BDDD57031CDD16BE0093631A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD0B23CF1CDD23C6002FA6DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDD56FE1CDD16BE0093631A /* Endor */;
+			targetProxy = BD0B23CE1CDD23C6002FA6DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDDD57061CDD16BE0093631A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDD57071CDD16BE0093631A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDDD570B1CDD16BE0093631A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDD570C1CDD16BE0093631A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD0B23D01CDD23C6002FA6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57A1034389C7A249F036D79 /* Pods-EndorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = EndorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.squareup.EndorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Endor.app/Endor";
+			};
+			name = Debug;
+		};
+		BD0B23D11CDD23C6002FA6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424A3929EAC4E4BDAFD5AC76 /* Pods-EndorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = EndorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.squareup.EndorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Endor.app/Endor";
+			};
+			name = Release;
+		};
+		BDDD570F1CDD16BE0093631A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDDD57101CDD16BE0093631A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDDD57121CDD16BE0093631A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD0086876B10CDD0FC134B8 /* Pods-Endor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = Endor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.squareup.Endor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDDD57131CDD16BE0093631A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9DDCDCB344BD0EB341E14F /* Pods-Endor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = Endor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.squareup.Endor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD0B23D21CDD23C6002FA6DE /* Build configuration list for PBXNativeTarget "EndorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0B23D01CDD23C6002FA6DE /* Debug */,
+				BD0B23D11CDD23C6002FA6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDD56FA1CDD16BE0093631A /* Build configuration list for PBXProject "Endor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDD570F1CDD16BE0093631A /* Debug */,
+				BDDD57101CDD16BE0093631A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDD57111CDD16BE0093631A /* Build configuration list for PBXNativeTarget "Endor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDD57121CDD16BE0093631A /* Debug */,
+				BDDD57131CDD16BE0093631A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDDD56F71CDD16BE0093631A /* Project object */;
+}

@@ -1,0 +1,13 @@
+workspace 'Endor'
+
+platform :ios, '9.0'
+
+use_frameworks!
+
+target 'Endor' do
+  pod 'AckbarAssertions', :path => '../../AckbarAssertions.podspec'
+end
+
+target 'EndorTests' do
+  pod 'AckbarTesting', :path => '../../AckbarTesting.podspec'
+end

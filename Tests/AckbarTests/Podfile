@@ -1,0 +1,10 @@
+workspace 'AckbarTests'
+
+platform :ios, '9.0'
+
+use_frameworks!
+
+target 'AckbarTests' do
+  pod 'AckbarTesting', :path => '../../AckbarTesting.podspec'
+  pod 'AckbarAssertions', :path => '../../AckbarAssertions.podspec'
+end
