@@ -29,7 +29,7 @@ Install the pods:
 
         pod install
         
-**IMPORTANT**: Open `Ackbar/Assertions/README.swift` and follow the instructions to manually integrate the traps into your app target. For more details see [the design section](#distributionmethod).
+**IMPORTANT**: Open `Ackbar/Assertions/README.swift` and follow the instructions to manually integrate the assertions into your app target. For more details see [the distribution method section](#distribution-method).
 
 ## Usage
 
@@ -52,7 +52,7 @@ Take a look at [Endor](Example/Endor) for a larger example of how to use `Ackbar
 Testing assertions works by throwing `NSException`s for assertion failures and using Objective-C's `try`/`catch` exception handling functionality to detect and trigger test failures.
 
 ### Rationale
-Assertion failures typically terminate a process, but this drastically reduces testability.  To make assertions testable, we need something that can be detected, and also unwinds the stack so other tests can continue to run after detection.  At this time, the best option for this is to use exceptions.
+Assertion failures typically terminate a process, but this drastically reduces testability.  To make assertions testable, we need something that can be detected, and also unwinds the stack so other execution can continue to run after detection.  At this time, the best option for this is to use exceptions.
 
 ### Alternative Designs
 Attaching a 'handler' to each thread a la `NSAssertionHandler` is a non-starter because this can effectively only be used for logging the failure. It does not facilitate unwinding the stack.
@@ -62,9 +62,9 @@ Swift's error handling by throwing errors is not an option because it doesn't un
 The family of Swift assertions send trap signals when an assertion fails. We could implement a signal handler, but given the hairiness of dropping down to mach, combined with the churn that the Swift language is going through, we chose not to go this route at this time. There are [examples](http://www.cocoawithlove.com/blog/2016/02/02/partial-functions-part-two-catching-precondition-failures.html) of using a signal handler for this already though.
 
 ### Distribution Method
-We use CocoaPods for distribution because it makes getting the code into your project easy.  However, in order for the testable assertions in AckbarAssertions to override Swift's assterions you must add `AckbarAssertions.swift` to the app and framework targets that you want to test.  Otherwise you would need to update your code to call `AckbarAssertions.assert` rather than just `assert`.
+We use CocoaPods for distribution because it makes getting the code into your project easy.  However, in order for the testable assertions in AckbarAssertions to override Swift's assterions you must add `Assertions.swift` to the app and framework targets that you want to test.  Otherwise you would need to update your code to call `AckbarAssertions.assert` rather than just `assert`.
 
-If you choose to make explicit calls to `AckbarAssertions.assert` be aware that your crash reports may be affected. Many crash reporters rollup 'related' crashes bashed upon stack trace similarities, so 2 different crashes with `AckbarAssertions.assert` at the top of the stack trace will result in different crashes being rolled up into different instances of the same crash.
+If you choose to make explicit calls to `AckbarAssertions.assert` be aware that your crash report tool may be affected. Many crash reporters rollup 'related' crashes bashed upon stack trace similarities, so two different crashes with `AckbarAssertions.assert` at the top of the stack trace will result in different crashes being rolled up into different instances of the same crash.
 
 ## License
 [Apache License, Version 2.0](LICENSE)
